@@ -14,4 +14,31 @@ public class Jugador {
 		
 	}
 
+	public String getNombreDelJugador() {
+		return nombreDelJugador;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public int getEdad() {
+		return edad;
+	}
+
+	public double getPrecio() {
+		return precio;
+	}
+
+	@Override
+	public String toString() {
+		return "Jugador"
+				+ "\n\tNombre Del Jugador:" + nombreDelJugador 
+				+ "\nNumero: " + numero 
+				+ "\nedad: " + edad 
+				+ "\n precio:"+ precio;
+	}
+	
+	
+
 }
